@@ -1,0 +1,29 @@
+p{
+    margin:0px;
+    font-family:Nanum Myeongjo, Arial;
+}
+body{
+    margin:0px;
+}
+.title-header{
+display:flex;
+flex-direction:column;
+align-items:center;
+margin-top:0px;
+
+}
+.title-div{
+display:block;
+margin-bottom:22px;
+}
+.title-header .title{
+
+font-family: 'Times New Roman', Times, serif;
+font-size:39px;
+font-weight:500;
+}
+
+.info{
+    font-family:Roboto,Arial;
+    line-height:25px;
+   }

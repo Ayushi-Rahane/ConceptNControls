@@ -1,0 +1,77 @@
+.flex-div{
+    display:flex;
+    flex-direction:column;
+}
+.contact-us-div{
+    background-color:rgb(255, 255, 118);
+    padding:9px;
+    padding-bottom:19px;
+    position:relative;
+    z-index:12;  
+    flex:1; 
+   }
+
+   .contact-us-logo{
+    width:50px;
+    mix-blend-mode:multiply;
+    vertical-align:middle;
+
+   }
+
+   .twitter-logo{
+    margin-right:98px;
+    margin-left:98px;
+    width:50px;
+    mix-blend-mode:multiply;
+    vertical-align:top;
+    margin-bottom:22px;
+   }
+
+   .contact-form{
+    background-color:rgb(196, 95, 95);
+    position:absolute;
+    bottom:0;
+    right:0;
+    left:0;
+    top:0;
+    flex:1; 
+    padding-top:363px;
+   }
+
+   .input-div{
+ 
+    background-color:rgb(196, 95, 95);
+    display:flex;
+    flex-direction:column;
+    row-gap:12px;
+    justify-content:center;
+    align-items:center;
+    padding-bottom:12px;
+    
+   }
+
+   .input{
+     width:222px;
+     height:22px;
+     border-radius:2px;
+     border:none;
+     
+   }
+
+   .submit-btn{
+    margin-top:17px;
+    border:none;
+    width:71px;
+    height:32px;
+    border-radius:12px;
+    cursor:pointer;
+   }
+
+   .submit-btn:hover{
+    background-color:lightblue;
+   }
+
+   .submit-btn:active{
+    background-color:rgb(49, 179, 230);
+   }
+

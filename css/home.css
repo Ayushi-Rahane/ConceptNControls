@@ -1,0 +1,41 @@
+.home-div{
+    background-color:rgb(252, 177, 38);
+    display:flex;
+    flex:1;
+    height:500px;
+    justify-content:center;
+    position:relative;
+    top:82px;
+    margin-bottom:122px;
+ 
+   }
+   .Title{
+    margin-top:72px;
+    font-family:Nanum Myeongjo, Arial;
+    font-size:50px;
+    color:white;
+   }
+   .sub-title{
+    font-size:29px;
+    font-family:Nanum Myeongjo, Arial;
+    color:white;
+    line-height:39px;
+    margin-top:22px;
+   }
+   .contact-link{
+   background-color:white;
+   display:flex;
+   width:119px;
+   padding-left:9px;
+   padding-right:5px;
+   padding-top:5px;
+   padding-bottom:5px;
+   border-radius:5px;
+   margin-top:22px;
+   }
+   .link{
+    color:black;
+    font-weight:700;
+    font-size:22px;
+    
+   }
