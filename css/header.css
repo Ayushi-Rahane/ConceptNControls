@@ -30,7 +30,7 @@
             }
             .header-btn{
                 flex:1;
-              
+                text-decoration:none;
                 background-color:rgb(133, 133, 177);
                 color:white;
                 padding:9px;
