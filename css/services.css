@@ -47,4 +47,14 @@
         row-gap:22px;
      }
 
+       
    }   
+   
+@media screen and (min-width:393px) and (max-width:767px){
+  .items-grid{
+    grid-template-columns:1fr 1fr;
+    row-gap:22px;
+ }
+
+ 
+}
