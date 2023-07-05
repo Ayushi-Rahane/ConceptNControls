@@ -40,3 +40,20 @@
     font-size:22px;
     
    }
+
+@media screen and (max-width: 376px)   
+{
+  .home-div{
+      top:65px;
+    }
+  .sub-title{
+    font-size:21px;
+    text-align:center;
+  }  
+  .contact-link{
+    position:absolute;
+    left:110px;
+  }  
+
+}
+
