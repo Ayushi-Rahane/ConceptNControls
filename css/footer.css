@@ -70,3 +70,14 @@
      }
 
 }
+
+  
+@media screen and (min-width:393px) and (max-width:767px){
+     .footer-div .icon2{
+          right:0px;
+     }
+     .footer-div .icon3{
+          right:53px;;
+     }
+    
+   }
