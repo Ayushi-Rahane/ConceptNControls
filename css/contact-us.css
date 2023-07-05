@@ -34,3 +34,10 @@
     background-color:rgb(49, 179, 230);
    }
 
+     
+@media screen and (min-width:393px) and (max-width:767px){
+   
+    .contact-us-div{
+        margin-top:62px;
+    }
+  }
