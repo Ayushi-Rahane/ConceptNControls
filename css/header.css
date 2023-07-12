@@ -1,7 +1,7 @@
             
             .header{
                 column-gap:12px;
-                background-color:rgb(98, 219, 252);
+                background:linear-gradient(to bottom, #9fe5fd 0%, #33ccff 100%);
                 border-radius:3px;
                 display:grid;
                 grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
@@ -10,6 +10,7 @@
                 right:0px;
                 left:0px;
                 z-index:100;
+                border-bottom:1px solid rgb(170, 168, 168);
                 
             }
             .logo{
