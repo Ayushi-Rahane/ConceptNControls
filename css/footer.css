@@ -2,9 +2,10 @@
     background-color:rgb(213, 211, 211);
     display:flex;
     flex-direction:row;
-    position:relative;
+    left:0px;
+    right:0px;
     z-index:2;
-   
+    position:absolute;
   }
 
   .footer-div .title{
