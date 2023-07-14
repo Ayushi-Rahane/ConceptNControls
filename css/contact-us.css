@@ -1,75 +1,204 @@
 
 .contact-us-div{
-    background:linear-gradient(to bottom, #33ccff 0%, rgb(255, 255, 118) 100%);
-    padding:9px;
-    padding-bottom:19px;
-    position:relative;
-    z-index:12;  
-    flex:1;
-    
-   }
+background:linear-gradient(to bottom, #33ccff 0%, rgb(255, 255, 118) 100%);
+padding:9px;
+padding-bottom:19px;
+position:relative;
+z-index:12;  
+flex:1;
 
-   .contact-us-logo-div{
+}
+
+.contact-us-logo-div{
+display:flex;
+flex-direction:row;
+justify-content:space-between;
+align-items:center;
+font-size:42px;
+}
+.contact-us-logo-{
+margin:12px;
+mix-blend-mode:multiply;
+}
+
+.contactus-div{
+display:flex;
+flex-direction:row;
+margin-top:85px;
+}   
+
+.bg-img-div{
+flex:1;
+height:600px;
+position:relative;
+}
+.bg-img{
+width:100%;
+height:100%;
+}
+
+
+
+.msg1-div{
+position:absolute;
+bottom:200px;
+right:200px;
+animation-name:msg1;
+animation-duration:3s; 
+}
+
+@keyframes msg1{
+0% {
+right:0px;
+bottom:300px;
+
+}
+100% {
+
+right:200px;
+bottom:200px;
+} 
+}
+.msg1{
+font-size:40px;
+font-weight:600;
+transition: -webkit-text-stroke 1s;
+background:linear-gradient(to right, rgb(255, 221, 0) 0%, #33ccff 100%);
+-webkit-text-fill-color: transparent;
+-webkit-background-clip:text;
+background-clip:text;
+}
+.msg1:hover, .msg2:hover{
+background:lightblue;
+-webkit-text-fill-color: transparent;
+-webkit-background-clip:text;
+background-clip:text;
+-webkit-text-stroke:1px white;
+}
+.msg2-div{
+position:absolute;
+bottom:150px;
+right:150px;
+animation-name:msg2;
+animation-duration:3s;
+}
+.msg2{
+    font-size:40px;
+font-weight:600;
+transition:-webkit-text-stroke 1s;
+    background:linear-gradient(to right, rgb(255, 221, 0) 0%, #33ccff 100%);
+-webkit-text-fill-color: transparent;
+-webkit-background-clip:text;
+background-clip:text;
+}
+@keyframes msg2{
+0% {
+    right:0px;
+    bottom:200px;
+    
+}
+100% {
+    bottom:150px;
+    right:150px;
+    
+}   
+}
+@media screen and (max-width: 376px)
+{
+.header{
+    padding-right:5px;
+}
+.logo{
+    width:80px;
+    margin-left:7px;
+    margin-right:0px;
+    margin-top:12px;
+    padding:0px;
+}
+
+.header-btn-div{
+    width:100%;
+    font-size:10px;
+}
+
+.header-btn{
+    padding-top:5px;
+    padding-bottom:5px;
+    padding-right:0px;
+    padding-left:0px;
+}
+}
+
+
+@media screen and (min-width:393px) and (max-width:767px){
+
+.header{
+    padding-right:5px;
+    
+}
+.logo{
+    width:80px;
+    margin-left:7px;
+    margin-right:0px;
+    margin-top:12px;
+    padding:0px;
+}
+
+.header-btn-div{
+    width:100%;
+    font-size:10px;
+}
+.header-btn{
+    padding-top:5px;
+    padding-bottom:5px;
+    padding-right:0px;
+    padding-left:0px;
+}
+.contactus-div{
     display:flex;
     flex-direction:row;
-    justify-content:space-between;
-    align-items:center;
-    font-size:42px;
-   }
-   .contact-us-logo-{
+    margin-top:70px;
+    }  
+
+.msg1{
+        font-size:20px;
+        font-weight:600;     
+}
+.msg1-div{
+    bottom:300px;
+    right:25px;
+}
+@keyframes msg1{
+    0% {
+    right:0px;
+    bottom:400px;
     
-    mix-blend-mode:multiply;
-   }
-@media screen and (max-width: 376px)
-   {
-       .header{
-           padding-right:5px;
-       }
-       .logo{
-           width:80px;
-           margin-left:7px;
-           margin-right:0px;
-           margin-top:12px;
-           padding:0px;
-       }
-       
-       .header-btn-div{
-           width:100%;
-           font-size:10px;
-       }
-   
-       .header-btn{
-           padding-top:5px;
-           padding-bottom:5px;
-           padding-right:0px;
-           padding-left:0px;
-       }
-   }
-   
-   
-   @media screen and (min-width:393px) and (max-width:767px){
-       
-       .header{
-           padding-right:5px;
-           
-       }
-       .logo{
-           width:80px;
-           margin-left:7px;
-           margin-right:0px;
-           margin-top:12px;
-           padding:0px;
-       }
-   
-       .header-btn-div{
-           width:100%;
-           font-size:10px;
-       }
-       .header-btn{
-           padding-top:5px;
-           padding-bottom:5px;
-           padding-right:0px;
-           padding-left:0px;
-       }
-   }
-   
+    }
+    100% {
+    
+    right:25px;
+    bottom:300px;
+    } 
+    }
+    .msg2-div{
+     
+        bottom:270px;
+        right:0px;
+    }
+    .msg2{
+        font-size:20px;
+        font-weight:600;
+    }        
+    @keyframes msg2{
+        0% {
+            right:0px;
+            bottom:370px;
+            
+        }
+        100% {
+            bottom:270px;
+            right:0px;
+            
+        }   
+        }
+}
